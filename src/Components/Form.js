@@ -33,7 +33,7 @@ const Form = (props) =>{
       "username": userName,
     })
     .then(r=>{
-        console.log(r.data)
+        console.log(r)
     })
     .catch((error)=>{
         console.log(error)
